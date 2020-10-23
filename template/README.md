@@ -203,7 +203,7 @@ describe("模板编译", () => {
 ```
 ## 测试结果
 运行 jest template --watchAll 命令，结果如下:
-![template](assets/template.png)
+![template](/assets/template.png)
 
 参考文章
 https://juejin.im/post/6884138429181870093

@@ -116,7 +116,7 @@ it("节流Throttle", (done) => {
 ## 测试结果
 
 执行 jest throttle_debounce --watchAll 命令，其测试结果如下：
-![throttle-debounce](https://cdn.nlark.com/yuque/0/2020/png/427411/1603188181827-80918b79-6664-40d2-b0fc-7fe391e02d97.png?x-oss-process=image%2Fresize%2Cw_348)
+![throttle_debounce](/assets/throttle_debounce.png)
 
 ## 总结
 
