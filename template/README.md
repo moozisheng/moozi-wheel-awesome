@@ -205,5 +205,5 @@ describe("模板编译", () => {
 运行 jest template --watchAll 命令，结果如下:
 ![template](/assets/template.png)
 
-参考文章
+参考文章<br/>
 https://juejin.im/post/6884138429181870093
