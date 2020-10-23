@@ -66,12 +66,12 @@ template = template.replace(/\{\{([^}]+)\}\}/g, function () {
   return "${" + key + "}"   // 将模板字符串 <b>{{ name }}</b> 转换成 <b>${name}</b>
 })
 ```
+上面的代码，将输入的模板`<div>{{name}}</div>`转换成了`<div>${name}</div>`的形式
 
-上面的代码，将输入的模板<div>{{ name }}</div>转换成了<div>${name}</div>的形式
 
 ### 第二步 {% %}表达式 转换
 
-同样是利用正则将 {% %} 表达式转换成 js 语句：
+同样是利用正则将 `{% %}` 表达式转换成 js 语句：
 ```js
   // [^%] 匹配除了 % 以外的任意字符
   template = template.replace(/\{\%([^%]+)\%\}/g, function () {
@@ -102,7 +102,7 @@ new Function('obj', body)
 ```
 
 其中 obj 为传递给 Generate 函数的参数，body 为 Generate 函数的函数体。
-我们仍然以模板 {% if(isShow) { %} <div>{{ name }}</div> {% } %} 为例：
+我们仍然以模板 `{% if(isShow) { %} <div>{{ name }}</div> {% } %}` 为例：
 
 ```js
 // head 为函数的函数体
@@ -202,7 +202,8 @@ describe("模板编译", () => {
 });
 ```
 ## 测试结果
-运行 jest template --watchAll 命令，结果如下
-![](assets/template.png)
+运行 jest template --watchAll 命令，结果如下:
+![template](assets/template.png)
+
 参考文章
 https://juejin.im/post/6884138429181870093
