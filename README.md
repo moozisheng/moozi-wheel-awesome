@@ -27,3 +27,22 @@
   - 订阅发布
   - 斐波那契算法
   - 去重
+
+
+  ## 如何启动测试
+
+```bash
+
+
+# 全局安装jest 或者在根目录下安装jest
+npm i jest -g
+
+# 启动单元测试
+jest 目录名 --watchAll
+
+如：
+
+jest template --watchAll
+
+# 直到完成测试案例
+```
