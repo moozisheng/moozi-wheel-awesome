@@ -63,11 +63,11 @@
 template = template.replace(/\{\{([^}]+)\}\}/g, function () {
   // arguments 对象  replace 回调函数的 参数
   let key = arguments[1].trim();
-  return "${" + key + "}"   // 将模板字符串 <b>{{ name }}</b>  转换成 <b>${name}</b>
+  return "${" + key + "}"   // 将模板字符串 <b>{{ name }}</b> 转换成 <b>${name}</b>
 })
 ```
 
-上面的代码，将输入的模板 <div>{{ name }}</div> 转换成了 <div>${name}</div> 的形式
+上面的代码，将输入的模板<div>{{ name }}</div>转换成了<div>${name}</div>的形式
 
 ### 第二步 {% %}表达式 转换
 
