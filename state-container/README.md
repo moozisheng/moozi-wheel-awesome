@@ -100,6 +100,6 @@ describe("统一状态管理", () => {
 ## 测试结果
 执行  jest state-container --watchAll 命令，结果如下：
 
-![state-container](/assets/state-container.png)
+![state-container](/assets/state-container.png "状态管理")
 
 > 参考文档：https://juejin.im/post/6886002492577234952
