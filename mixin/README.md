@@ -20,6 +20,7 @@ Mixin 又叫做混入，即可以将任意一个对象的全部或部分属性�
 在 JavaScript 中，所有的对象都有原型，原型可以继承其它对象的原型从而得到更多的属性。因此我们可以通过 JavaScript 特有的原型链属性，将功能引用复制到原型链上，从而实现 Mixin 的功能。
 <br />
 <br >
+
 ```javascript
 module.exports = (receivingClass, givingClass) => {
   if (receivingClass && givingClass) {
