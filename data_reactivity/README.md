@@ -200,7 +200,7 @@ it('测试数组中数据改变时 是否被响应', () => {
 ```
 ### 测试结果
 执行 jest data_reactivity --watchAll 命令，结果如下：
-![reactivity](/assets/reactivity.png)
+![reactivity](/assets/reactivity.png "数据响应式")
 
 参考文档：<br/>
 https://juejin.im/post/6885546581438201869
